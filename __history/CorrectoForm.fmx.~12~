@@ -1,0 +1,36 @@
+object MyCorrectoForm: TMyCorrectoForm
+  Left = 0
+  Top = 0
+  Caption = 'Hecho!'
+  ClientHeight = 564
+  ClientWidth = 825
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object txtMensaje: TText
+    Align = Center
+    AutoSize = True
+    Size.Width = 387.000000000000000000
+    Size.Height = 171.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = -16.000000000000000000
+    Position.Y = -8.000000000000000000
+    Size.Width = 841.000000000000000000
+    Size.Height = 569.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object VertScrollBox1: TVertScrollBox
+    Position.X = 800.000000000000000000
+    Size.Width = 26.000000000000000000
+    Size.Height = 577.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Viewport.Width = 26.000000000000000000
+    Viewport.Height = 577.000000000000000000
+  end
+end

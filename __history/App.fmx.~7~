@@ -1,0 +1,112 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 164
+  ClientWidth = 747
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object txtTittle: TText
+    Position.X = 312.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 137.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'ALGORITMO RSA'
+  end
+  object btnEncriptar: TButton
+    Position.X = 16.000000000000000000
+    Position.Y = 120.000000000000000000
+    Size.Width = 321.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Encriptar'
+  end
+  object tbxClavePrivada: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    Position.X = 632.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object btnBuscar: TButton
+    Position.X = 240.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'Explorar...'
+  end
+  object txtEncriptar: TText
+    Position.X = 16.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 217.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'B'#250'squeda de archivo a encriptar : '
+  end
+  object txtEnunciadoArchivo: TText
+    Position.X = 16.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 217.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Archivo seleccionado : '
+  end
+  object txtArchivoSeleccionado: TText
+    Position.X = 240.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Line1: TLine
+    LineType = Diagonal
+    Position.X = 376.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 1.000000000000000000
+    Size.Height = 100.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object txtDesencriptar: TText
+    Position.X = 416.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 201.000000000000000000
+    Size.Height = 26.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'B'#250'squeda archivo a desencriptar : '
+  end
+  object Button1: TButton
+    Position.X = 632.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    Text = 'Button1'
+  end
+  object txtClavePrivada: TText
+    Position.X = 416.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 201.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Ingrese clave privada : '
+  end
+  object btnDesencriptar: TButton
+    Position.X = 416.000000000000000000
+    Position.Y = 120.000000000000000000
+    Size.Width = 313.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 10
+    Text = 'Desencriptar'
+  end
+end

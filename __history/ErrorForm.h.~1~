@@ -1,0 +1,23 @@
+//---------------------------------------------------------------------------
+
+#ifndef MensajeFormH
+#define MensajeFormH
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <FMX.Controls.hpp>
+#include <FMX.Forms.hpp>
+#include <FMX.Objects.hpp>
+#include <FMX.Types.hpp>
+//---------------------------------------------------------------------------
+class TMyMensajeForm : public TForm
+{
+__published:	// IDE-managed Components
+	TText *txtMensaje;
+private:	// User declarations
+public:		// User declarations
+	__fastcall TMyMensajeForm(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TMyMensajeForm *MyMensajeForm;
+//---------------------------------------------------------------------------
+#endif

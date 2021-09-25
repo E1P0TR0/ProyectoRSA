@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/09/04 20:56:51.000.337,=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2021/09/04 20:56:53.000.089,=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/09/04 20:59:46.000.535,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Unit1.cpp=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\TP.cpp</Transaction>
+    <Transaction>2021/09/04 20:59:46.000.535,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Unit1.h=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\TP.h</Transaction>
+    <Transaction>2021/09/04 20:59:46.000.535,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\TP.fmx</Transaction>
+    <Transaction>2021/09/04 20:59:59.000.708,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Project1TP.h</Transaction>
+    <Transaction>2021/09/04 21:00:21.000.952,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>2021/09/04 21:00:50.000.147,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\TP.h=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\App.h</Transaction>
+    <Transaction>2021/09/04 21:00:50.000.147,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\TP.fmx=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\App.fmx</Transaction>
+    <Transaction>2021/09/04 21:00:50.000.147,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\TP.cpp=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\App.cpp</Transaction>
+    <Transaction>2021/09/04 21:01:21.000.247,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\main.cbproj</Transaction>
+    <Transaction>2021/09/16 17:35:06.000.113,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\main.cbproj=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Proyect.cbproj</Transaction>
+    <Transaction>2021/09/16 17:36:49.000.455,=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\File1.h</Transaction>
+    <Transaction>2021/09/16 17:37:48.000.891,=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\File2.h</Transaction>
+    <Transaction>2021/09/16 17:38:23.000.653,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\File1.h=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\RSA.h</Transaction>
+    <Transaction>2021/09/16 17:38:34.000.804,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\File2.h=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\File.h</Transaction>
+    <Transaction>2021/09/19 16:05:01.000.822,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\nuevo-h.h=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\File.h</Transaction>
+    <Transaction>2021/09/19 16:05:09.000.109,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\archivo.h=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\nuevo-h.h</Transaction>
+    <Transaction>2021/09/19 16:17:20.000.478,=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2021/09/19 16:17:50.000.497,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Anuncio.cpp=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2021/09/19 16:17:50.000.497,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Anuncio.h=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Unit2.h</Transaction>
+    <Transaction>2021/09/19 16:17:50.000.497,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Anuncio.fmx=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Unit2.fmx</Transaction>
+    <Transaction>2021/09/19 16:18:02.000.302,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Validación.fmx=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Anuncio.fmx</Transaction>
+    <Transaction>2021/09/19 16:18:02.000.302,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Validación.h=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Anuncio.h</Transaction>
+    <Transaction>2021/09/19 16:18:02.000.302,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Validación.cpp=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Anuncio.cpp</Transaction>
+    <Transaction>2021/09/19 16:18:13.000.333,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Mensaje.fmx=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Validación.fmx</Transaction>
+    <Transaction>2021/09/19 16:18:13.000.333,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Mensaje.h=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Validación.h</Transaction>
+    <Transaction>2021/09/19 16:18:13.000.333,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Mensaje.cpp=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Validación.cpp</Transaction>
+    <Transaction>2021/09/19 16:20:00.000.487,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\MensajeForm.cpp=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Mensaje.cpp</Transaction>
+    <Transaction>2021/09/19 16:20:00.000.487,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\MensajeForm.h=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Mensaje.h</Transaction>
+    <Transaction>2021/09/19 16:20:00.000.487,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\MensajeForm.fmx=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Mensaje.fmx</Transaction>
+    <Transaction>2021/09/19 16:20:16.000.461,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\MainForm.h=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\App.h</Transaction>
+    <Transaction>2021/09/19 16:20:16.000.461,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\MainForm.cpp=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\App.cpp</Transaction>
+    <Transaction>2021/09/19 16:20:16.000.461,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\MainForm.fmx=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\App.fmx</Transaction>
+    <Transaction>2021/09/19 17:56:27.000.274,=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2021/09/19 17:57:11.000.962,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Unit2.h=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\MensajeForm2.h</Transaction>
+    <Transaction>2021/09/19 17:57:11.000.962,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Unit2.cpp=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\MensajeForm2.cpp</Transaction>
+    <Transaction>2021/09/19 17:57:11.000.962,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\Unit2.fmx=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\MensajeForm2.fmx</Transaction>
+    <Transaction>2021/09/19 17:58:01.000.270,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\MensajeForm.h=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\ErrorForm.h</Transaction>
+    <Transaction>2021/09/19 17:58:01.000.270,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\MensajeForm.cpp=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\ErrorForm.cpp</Transaction>
+    <Transaction>2021/09/19 17:58:01.000.270,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\MensajeForm.fmx=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\ErrorForm.fmx</Transaction>
+    <Transaction>2021/09/19 17:58:14.000.805,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\MensajeForm2.fmx=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\CorrectoForm.fmx</Transaction>
+    <Transaction>2021/09/19 17:58:14.000.805,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\MensajeForm2.h=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\CorrectoForm.h</Transaction>
+    <Transaction>2021/09/19 17:58:14.000.805,C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\MensajeForm2.cpp=C:\Users\Amelia\Documents\Embarcadero\Studio\Projects\CorrectoForm.cpp</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,17 @@
+object MyErrorForm: TMyErrorForm
+  Left = 0
+  Top = 0
+  Caption = 'Error'
+  ClientHeight = 78
+  ClientWidth = 276
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object txtMensaje: TText
+    Align = Scale
+    Size.Width = 276.000000000000000000
+    Size.Height = 78.000000000000000000
+    Size.PlatformDefault = False
+  end
+end

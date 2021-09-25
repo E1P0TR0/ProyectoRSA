@@ -1,0 +1,21 @@
+//---------------------------------------------------------------------------
+
+#include <fmx.h>
+#include <iostream>
+#include <time.h>
+#pragma hdrstop
+
+#include "App.h"
+#include "RSA.h"
+#include "File.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.fmx"
+TForm1 *Form1;
+
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------

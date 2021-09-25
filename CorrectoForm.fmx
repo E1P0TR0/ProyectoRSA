@@ -1,0 +1,23 @@
+object MyCorrectoForm: TMyCorrectoForm
+  Left = 607
+  Top = 307
+  Caption = 'Hecho!'
+  ClientHeight = 380
+  ClientWidth = 688
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  Left = 607
+  Top = 307
+  DesignerMasterStyle = 0
+  object txtMensaje: TText
+    Align = Scale
+    ClipParent = True
+    Position.X = 26.461534500122070000
+    Position.Y = 37.748332977294920000
+    Size.Width = 635.076904296875000000
+    Size.Height = 305.342132568359400000
+    Size.PlatformDefault = False
+  end
+end

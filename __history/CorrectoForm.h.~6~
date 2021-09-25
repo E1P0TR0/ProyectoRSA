@@ -1,0 +1,23 @@
+//---------------------------------------------------------------------------
+
+#ifndef CorrectoFormH
+#define CorrectoFormH
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <FMX.Controls.hpp>
+#include <FMX.Forms.hpp>
+#include <FMX.Objects.hpp>
+#include <FMX.Types.hpp>
+//---------------------------------------------------------------------------
+class TMyCorrectoForm : public TForm
+{
+__published:	// IDE-managed Components
+	TText *txtMensaje;
+private:	// User declarations
+public:		// User declarations
+	__fastcall TMyCorrectoForm(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TMyCorrectoForm *MyCorrectoForm;
+//---------------------------------------------------------------------------
+#endif

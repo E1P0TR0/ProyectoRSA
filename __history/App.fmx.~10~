@@ -1,0 +1,96 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 249
+  ClientWidth = 360
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object txtTittle: TText
+    Position.X = 112.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 137.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'ALGORITMO RSA'
+  end
+  object btnEncriptar: TButton
+    Position.X = 16.000000000000000000
+    Position.Y = 120.000000000000000000
+    Size.Width = 321.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'Encriptar'
+    OnClick = btnEncriptarClick
+  end
+  object tbxClavePrivada: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 216.000000000000000000
+    Position.Y = 176.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object txtNombreArchivo: TText
+    Position.X = 16.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Ingrese nombre de archivo : '
+  end
+  object txtSeleccionado: TText
+    Position.X = 16.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Archivo seleccionado : '
+  end
+  object txtArchivoSeleccionado: TText
+    Position.X = 216.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object lnSeparador: TLine
+    LineType = Diagonal
+    Position.X = 9.000000000000000000
+    Position.Y = 160.000000000000000000
+    Size.Width = 336.000000000000000000
+    Size.Height = 1.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object txtClavePrivada: TText
+    Position.X = 16.000000000000000000
+    Position.Y = 176.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Ingrese clave privada : '
+  end
+  object btnDesencriptar: TButton
+    Position.X = 16.000000000000000000
+    Position.Y = 208.000000000000000000
+    Size.Width = 321.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    Text = 'Desencriptar'
+  end
+  object tbxNombreArchivo: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 9
+    Position.X = 216.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+end

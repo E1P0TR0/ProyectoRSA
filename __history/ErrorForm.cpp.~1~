@@ -1,0 +1,16 @@
+//---------------------------------------------------------------------------
+
+#include <fmx.h>
+#pragma hdrstop
+
+#include "MensajeForm.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.fmx"
+TMyMensajeForm *MyMensajeForm;
+//---------------------------------------------------------------------------
+__fastcall TMyMensajeForm::TMyMensajeForm(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------

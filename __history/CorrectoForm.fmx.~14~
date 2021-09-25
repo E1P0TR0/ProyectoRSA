@@ -1,0 +1,32 @@
+object MyCorrectoForm: TMyCorrectoForm
+  Left = 607
+  Top = 307
+  Caption = 'Hecho!'
+  ClientHeight = 453
+  ClientWidth = 754
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  Left = 607
+  Top = 307
+  DesignerMasterStyle = 0
+  object GroupBox1: TGroupBox
+    Align = Scale
+    Position.Y = 7.127394676208496000
+    Size.Width = 754.002319335937500000
+    Size.Height = 438.744842529296900000
+    Size.PlatformDefault = False
+    Text = 'Mensaje Desencriptado :'
+    TabOrder = 0
+    object txtMensaje: TText
+      Align = Scale
+      ClipParent = True
+      Position.X = 29.239534378051760000
+      Position.Y = 36.817813873291020000
+      Size.Width = 695.482849121093800000
+      Size.Height = 364.342651367187500000
+      Size.PlatformDefault = False
+    end
+  end
+end
