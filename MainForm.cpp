@@ -37,7 +37,7 @@ void __fastcall TForm1::btnEncriptarClick(TObject *Sender)
         File f(name_file);
 		std::string info_file = f.read_file();
 
-		if(info_file == "Fail")
+		if(info_file == "Fail" || info_file == "")
 		{
 			MyErrorForm->Show();
 			MyErrorForm->txtMensaje->Text = "No existe el archivo ! ";

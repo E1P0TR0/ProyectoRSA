@@ -1,0 +1,112 @@
+//---------------------------------------------------------------------------
+
+#include <fmx.h>
+#include <iostream>
+#include <time.h>
+#include <sstream>
+#pragma hdrstop
+
+#include "MainForm.h"
+#include "RSA.h"
+#include "archivo.h"
+#include "ErrorForm.h"
+#include "CorrectoForm.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.fmx"
+TForm1 *Form1;
+
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+
+// PRESIONAR ENCRIPTAR
+void __fastcall TForm1::btnEncriptarClick(TObject *Sender)
+{
+	std::string name_file = AnsiString(tbxNombreArchivo->Text).c_str();
+    if(name_file == "")
+	{
+		MyErrorForm->Show();
+		MyErrorForm->txtMensaje->Text = "Ingrese nombre de archivo !";
+	}
+	else
+	{
+        File f(name_file);
+		std::string info_file = f.read_file();
+
+		if(info_file == "Fail" || info_file == "")
+		{
+			MyErrorForm->Show();
+			MyErrorForm->txtMensaje->Text = "No existe el archivo ! ";
+		}
+		else
+		{
+			// EJECUTAMOS RSA
+			RSA rsa;
+			rsa.set_msg(info_file);
+			rsa.generate_primes();
+			rsa.generate_x();
+			rsa.generate_y();
+			rsa.genetare_e();
+			rsa.generate_d();
+			rsa.encrypt();
+			f.write_file(rsa.get_msgEncrypt(), rsa.get_n(), rsa.get_d(), 1); // 287-103
+			MyCorrectoForm->Show();
+			MyCorrectoForm->txtMensaje->Text = "Archivo Encriptado ! ";
+		}
+    }
+
+}
+//---------------------------------------------------------------------------
+
+// // PRESIONAR DESENCRIPTAR
+void __fastcall TForm1::btnDesencriptarClick(TObject *Sender)
+{
+	std::string name_file = AnsiString(tbxNombreArchivo->Text).c_str();
+	std::string private_key_file = AnsiString(tbxClavePrivada->Text).c_str();
+	if(name_file == "" || private_key_file == "")
+	{
+		MyErrorForm->Show();
+		MyErrorForm->txtMensaje->Text = "Ingrese los datos correctos !";
+	}
+	else
+	{
+		File f(name_file);
+		std::string info_file = f.read_file();
+
+		if(info_file == "Fail")
+		{
+			MyErrorForm->Show();
+			MyErrorForm->txtMensaje->Text = "No existe el archivo ! ";
+		}
+		else
+		{
+			std::string private_key = AnsiString(tbxClavePrivada->Text).c_str();        // 287-103
+			std::string number;
+			std::stringstream ss(private_key);
+			std::vector<int> key{};
+			while(std::getline(ss, number, '-')) //* read encrypt and keys
+				key.push_back(std::stoi(number));
+            // EJECUTAMOS RSA
+			RSA rsa;
+			rsa.set_msgAndPKey(info_file);
+			if(key[0] == rsa.get_n() && key[1] == rsa.get_d())
+			{
+				rsa.decrypt();
+				MyCorrectoForm->Show();
+				f.write_file(rsa.get_msgDecrypt(), 0, 0, 2);
+				MyCorrectoForm->txtMensaje->Text = AnsiString(rsa.get_msgDecrypt().c_str());
+			}
+			else
+			{
+				MyErrorForm->Show();
+                MyErrorForm->txtMensaje->Text = "Clave Incorrecta !";
+            }
+		}
+	}
+}
+//---------------------------------------------------------------------------
+
